@@ -39,9 +39,9 @@
   }
 </script>
 <div>
-  <div class="text-xl">競技1 | 王様は誰だ!? 王様ドッヂボール</div>
+  <div class="text-2xl">競技1 | 王様は誰だ!? 王様ドッヂボール</div>
   <div class="pl-1">
-    <div class="grid grid-cols-2 pl-1">
+    <div class="grid grid-cols-2 pl-1 gap-1">
       <div>A vs C</div>
       <div>
         <select bind:value={ac} on:change={changeHandler}>
