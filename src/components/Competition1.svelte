@@ -18,7 +18,7 @@
     } else if (fightA === `${className}-1`) {
       pt += 5
     } else {
-      pt += 2
+      pt += 1
     }
 
     if (fightB === `${className}-2`) {
@@ -26,7 +26,7 @@
     } else if (fightB === `${className}-1`) {
       pt += 5
     } else {
-      pt += 2
+      pt += 1
     }
     return pt
   }
