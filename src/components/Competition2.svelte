@@ -22,8 +22,8 @@
     const map = [0, 5, 3, 1];
 
     point.a = map[parseInt(a1)] + map[parseInt(a2)];
-    point.b = map[parseInt(b1)] + map[parseInt(b1)];
-    point.c = map[parseInt(c1)] + map[parseInt(c1)];
+    point.b = map[parseInt(b1)] + map[parseInt(b2)];
+    point.c = map[parseInt(c1)] + map[parseInt(c2)];
 
     onChange(point);
   };
